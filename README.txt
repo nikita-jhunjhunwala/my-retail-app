@@ -2,6 +2,9 @@ The project "Test" has two modules - "my-retail-common-models" which consists of
 and "my-retail-application" which has all functionality.
 
 Assuming maven is installed in the testing system, run the following commands:
-1) mvn clean install -> to build the project
-2) mvn exec:java <>/Test/my-retail-application/src/main/java/com/target/assessment/MyRetailApplication.java
+1) git clone git@github.com:nikita-jhunjhunwala/my-retail-app.git
+2) cd my-retail-app
+3) mvn clean install
+4) cd my-retail-application
+3) mvn exec:java
 
